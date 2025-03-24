@@ -24,7 +24,7 @@ export default function Home() {
         <div className="bg-white/70 dark:bg-stone-800/70 p-8 rounded-lg shadow-xl backdrop-blur-sm w-full border border-amber-200 dark:border-amber-900">
           <div className="mb-8">
             <h2 className="cursive text-2xl font-semibold mb-2 text-stone-800 dark:text-stone-100">The Wedding of</h2>
-            <p className="text-xl mb-1 text-stone-700 dark:text-stone-200">Lars-Allen Holien</p>
+            <p className="text-xl mb-1 text-stone-700 dark:text-stone-200">Lars-Allan Holien</p>
             <p className="text-xl mb-4 text-stone-700 dark:text-stone-200">& Ashlynn Matthews</p>
             <p className="text-lg italic text-stone-600 dark:text-stone-300">Join us for our special day</p>
           </div>
@@ -37,13 +37,13 @@ export default function Home() {
             
             <div className="border border-amber-200 dark:border-amber-800 p-4 rounded-lg">
               <h3 className="cursive text-lg font-medium mb-2 text-amber-700 dark:text-amber-400">Where</h3>
-              <p className="text-stone-600 dark:text-stone-300">Venue to be announced</p>
+              <p className="text-stone-600 dark:text-stone-300">San Clemente, CA</p>
             </div>
           </div>
         </div>
         
         <button className="mt-4 px-6 py-3 bg-amber-700 hover:bg-amber-800 text-white rounded-full shadow-md transition-colors">
-          RSVP Coming Soon
+          RSVP Coming Soon!
         </button>
       </main>
 
