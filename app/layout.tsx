@@ -20,8 +20,14 @@ const greatVibes = Great_Vibes({
 });
 
 export const metadata: Metadata = {
-  title: "Lars & Ashlynn - Save the Date",
-  description: "Wedding information for Lars-Allen Holien and Ashlynn Matthews",
+  title: "Lars & Ashlynn",
+  description: "Wedding information for Lars-Allan Holien and Ashlynn Mathews",
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/images/favicon.jpg', type: 'image/jpg' }
+    ],
+  },
 };
 
 export default function RootLayout({

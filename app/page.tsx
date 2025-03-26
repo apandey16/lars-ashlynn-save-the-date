@@ -28,7 +28,7 @@ export default function Home() {
           <p className="cursive text-3xl md:text-4xl text-[#1e3d8f] mb-8">August 8, 2025</p>
         </div>
         
-        <div className="relative w-full aspect-[4/3] mb-8 mx-auto overflow-hidden">
+        <div className="relative w-full aspect-[4/3] mb-8 mx-auto overflow-hidden rounded-lg shadow-xl border-4 border-[#98c5b0]">
           {images.map((image, index) => (
             <Image 
               key={image.src}
@@ -36,7 +36,7 @@ export default function Home() {
               alt={image.alt}
               fill
               className={`
-                object-cover rounded-lg shadow-xl border-4 border-[#98c5b0]
+                object-cover
                 transition-opacity duration-1000
                 ${currentImage === index + 1 ? 'opacity-100' : 'opacity-0'}
                 ${index === 0 ? 'object-[center_35%] scale-125' : 'object-[center_55%]'}
