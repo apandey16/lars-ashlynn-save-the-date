@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f8f3e9;
-  --foreground: #5d4037;
-  --primary: #8d6e63;
-  --primary-light: #a1887f;
-  --accent: #d7ccc8;
+  --background: #f8f8f8;
+  --foreground: #1e3d8f;
+  --primary: #3d7a7a;
+  --primary-light: #98c5b0;
+  --accent: #b8e6cf;
 }
 
 @theme inline {
@@ -14,9 +14,9 @@
   --color-primary: var(--primary);
   --color-primary-light: var(--primary-light);
   --color-accent: var(--accent);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-cinzel);
   --font-mono: var(--font-geist-mono);
-  --font-cursive: var(--font-great-vibes);
+  --font-cursive: var(--font-cinzel);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -32,9 +32,23 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-sans, Arial, Helvetica, sans-serif);
+  font-family: var(--font-sans, 'Cinzel', serif);
+  font-weight: 400;
 }
 
 .cursive {
-  font-family: var(--font-cursive, 'Great Vibes', cursive);
+  font-family: var(--font-cursive, 'Cinzel', serif);
+  font-weight: 700;
+}
+
+.bg-wedding-texture {
+  background-color: var(--primary-light);
+  background-image: 
+    radial-gradient(circle at 100% 150%, var(--primary-light) 24%, var(--accent) 24%, var(--accent) 28%, var(--primary-light) 28%, var(--primary-light) 36%, var(--accent) 36%, var(--accent) 40%, transparent 40%, transparent),
+    radial-gradient(circle at 0 150%, var(--primary-light) 24%, var(--accent) 24%, var(--accent) 28%, var(--primary-light) 28%, var(--primary-light) 36%, var(--accent) 36%, var(--accent) 40%, transparent 40%, transparent),
+    radial-gradient(circle at 50% 100%, var(--accent) 10%, var(--primary-light) 10%, var(--primary-light) 23%, var(--accent) 23%, var(--accent) 30%, var(--primary-light) 30%, var(--primary-light) 43%, var(--accent) 43%, var(--accent) 50%, var(--primary-light) 50%, var(--primary-light) 63%, transparent 63%, transparent),
+    radial-gradient(circle at 100% 50%, var(--accent) 5%, var(--primary-light) 5%, var(--primary-light) 15%, var(--accent) 15%, var(--accent) 20%, var(--primary-light) 20%, var(--primary-light) 29%, var(--accent) 29%, var(--accent) 34%, var(--primary-light) 34%, var(--primary-light) 44%, transparent 44%, transparent),
+    linear-gradient(var(--primary-light) 20%, var(--accent) 100%);
+  background-size: 80px 60px;
+  opacity: 0.8;
 }
