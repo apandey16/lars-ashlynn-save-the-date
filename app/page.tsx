@@ -19,8 +19,8 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-gradient-to-b from-[#98c5b0] to-[#b8e6cf]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center text-center max-w-2xl">
+    <div className="min-h-screen py-10 px-8 font-[family-name:var(--font-geist-sans)] bg-gradient-to-b from-[#98c5b0] to-[#b8e6cf]">
+      <main className="flex flex-col gap-[32px] items-center text-center max-w-2xl mx-auto">
         <div className="flex flex-col items-center">
           <h1 className="cursive text-4xl md:text-5xl font-bold mb-4 text-[#1e3d8f]">Lars & Ashlynn</h1>
           <p className="text-2xl md:text-3xl font-light mb-8 text-[#3d7a7a]">Save the Date</p>
@@ -75,11 +75,11 @@ export default function Home() {
         >
           RSVP Here!
         </a>
+        
+        <footer className="flex gap-[24px] flex-wrap items-center justify-center text-[#3d7a7a] text-sm mt-8">
+          <p>With love, Lars & Ashlynn</p>
+        </footer>
       </main>
-
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center text-[#3d7a7a] text-sm">
-        <p>With love, Lars & Ashlynn</p>
-      </footer>
     </div>
   );
 }
