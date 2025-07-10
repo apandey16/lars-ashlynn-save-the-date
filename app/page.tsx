@@ -41,10 +41,10 @@ export default function Home() {
     <div className="min-h-screen pt-16 pb-10 px-8 bg-gradient-to-b from-[#4A8769] via-[#76A49D] to-[#006081]">
       <main className="flex flex-col gap-[32px] items-center text-center max-w-2xl mx-auto">
         <div className="flex flex-col items-center">
-          <h1 className="cursive text-4xl md:text-5xl mb-4 text-[#006081]">Lars & Ashlynn</h1>
-          <p className="text-2xl md:text-3xl mb-8 text-[#1C7693]">Celebrate with us!</p>
-          <div className="h-px w-48 bg-[#76A49D] mb-8"></div>
-          <p className="cursive text-3xl md:text-4xl text-[#006081] mb-8">August 8, 2025</p>
+          <h1 className="cursive text-4xl md:text-5xl mb-4 text-white drop-shadow-lg">Lars & Ashlynn</h1>
+          <p className="text-2xl md:text-3xl mb-8 text-white drop-shadow">Celebrate with us!</p>
+          <div className="h-px w-48 bg-white mb-8 opacity-70"></div>
+          <p className="cursive text-3xl md:text-4xl text-white drop-shadow-lg mb-8">August 8, 2025</p>
         </div>
         
         <div className="relative w-full aspect-[4/3] mb-8 mx-auto overflow-hidden rounded-lg shadow-xl border-4 border-[#76A49D]">
