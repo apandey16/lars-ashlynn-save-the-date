@@ -1,4 +1,4 @@
-This is save the date type site for two of my friends who are getting married!
+This is wedding type site for two of my friends who are getting married!
 
 Public-facing link: https://lars-ashlynn.vercel.app/
 
